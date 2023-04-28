@@ -1,0 +1,109 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&family=Sriracha&display=swap');
+
+:root {
+    --fonte01: Verdana, Geneva, Tahoma, sans-serif;
+    --fonte02: 'Passion One', cursive;
+    --fonte03: 'Sriracha', cursive;
+}
+
+* {
+    padding: 0px;
+    margin: 0px;
+    text-decoration: none;
+    font-size: 1em;
+}
+
+html, body {
+    min-height: 100vh;
+    background-color: darkgrey;
+}
+
+.cabecalho {
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+.titulo-cabecalho {
+    font-family: var(--fonte02);
+    padding-top: 50px;
+    font-variant: small-caps;
+    font-size: 10vw;
+}
+
+.paragrafo-cabecalho {
+    font-family: var(--fonte01);
+    padding-bottom: 50px;
+    font-size: 16px;
+}
+
+section {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    padding-left: 30px;
+    font-size: 3vw;
+    line-height: 2em;
+    font-family: var(--fonte03);
+    text-align: start;
+}
+
+.sessao-normal {
+    background-color: white;
+}
+
+.sessao-imagem {
+    background-color: rgb(65, 64, 64);
+    color: white;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.432);
+}
+
+.paragrafo-normal {
+    padding-bottom: 1.5em;
+}
+
+.paragrafo-imagem {
+    display: inline-block;
+    padding: 5px;
+    background-color: rgba(0, 0, 0, 0.432);
+    text-shadow: 1px 1px 0px black;
+}
+
+#sessao02 {
+    background-image: url(imagens/joaninha.jpg);
+    background-position: right center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+
+#sessao04 {
+    background-image: url(imagens/folhas.jpg);
+    background-position: right center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+
+footer {
+    background-color: black;
+    padding: 10px;
+    color: white;
+    text-align: center;
+}
+
+.paragrafo-rodape {
+    font-family: var(--fonte01);
+}
+
+.link {
+    color: white;
+    font-weight: bolder;
+}
+
+.link:hover {
+    text-decoration: underline;
+}
